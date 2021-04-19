@@ -27,24 +27,27 @@ the 5 revealed  hidden images
 ![5_host](./doc/5_secr_rev.JPEG)
 
  #### You can find the results of hiding 2 ~ 3 images  in the 'doc' folder.
-Average PSNRs of the revealed hidden images and the container images for embedding 1∼5 images.
+ 
+### Average PSNRs of the revealed hidden images and the container images for embedding 1∼5 images.
+
  ![hidden_15](./doc/hiding_15png.png)
 
 ### Comparison with DeepSteg[5] 
 #### [5] Shumeet Baluja. Hiding images within images. IEEE TPAMI, 2020.
 
-#### Objective comparison using PSNR/SSIM.
-- h1 and - h2 means to hide 1 and 2 images respectively. (c) means cross-
+Objective comparison using PSNR/SSIM. - h1 and - h2 means to hide 1 and 2 images respectively. (c) means cross-
 domain testing, i.e. the model trained on another dataset is tested
 directly without fine-tuning.
 
  ![comp](./doc/comp_psnr.png)
- #### Visual comparisons for hiding and revealing two images.
+ 
+Visual comparisons for hiding and revealing two images.
 
  ![vis_2hidden](./doc/vis_2hidden.png)
 
  ### Jittor 
 Compared with pytorch, using Jittor can accelerate the inference speed  and reduce the memory at the same time at different resolutions. 
+
  ![jittor](./doc/jittor.png)
 
  ### Citation
