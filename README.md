@@ -54,7 +54,7 @@ Compared with pytorch, using Jittor can accelerate the inference speed  and redu
 
 If you find our work useful in your research, please consider citing:
 
-@inproceedings{shaopingluISN2020,
+@inproceedings{shaopingluISN2021,
 
   title={Large-capacity Image Steganography Based on Invertible Neural Networks},
 
